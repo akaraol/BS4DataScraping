@@ -8,4 +8,5 @@ content = result.text
 soup = BeautifulSoup(content, 'lxml')
 pretty_lxml = soup.encode("utf-8")
 
+#printing to output
 print(pretty_lxml)
